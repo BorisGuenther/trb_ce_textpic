@@ -1,0 +1,14 @@
+# customsubcategory=trb_ce_textpic=Textpic
+
+plugin.tx_trbcetextpic {
+	view {
+		# cat=TRB Common: Paths/trb_ce_textpic/10; type=string; label=Templates Root Path;
+		templateRootPath = EXT:trb_ce_textpic/Resources/Private/Templates/
+
+		# cat=TRB Common: Paths/trb_ce_textpic/20; type=string; label=Partials Root Path;
+		partialRootPath = EXT:trb_ce_textpic/Resources/Private/Partials/
+
+		# cat=TRB Common: Paths/trb_ce_textpic/30; type=string; label=Layouts Root Path;
+		layoutRootPath = EXT:trb_ce_textpic/Resources/Private/Layouts/		
+	}
+}

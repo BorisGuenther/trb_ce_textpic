@@ -1,0 +1,16 @@
+plugin.tx_trbcetextpic {
+	view {
+		templateRootPath = {$plugin.tx_trbcetextpic.view.templateRootPath}
+		partialRootPath = {$plugin.tx_trbcetextpic.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_trbcetextpic.view.layoutRootPath}
+	}
+}
+
+tt_content.textpic >
+tt_content.textpic = USER
+tt_content.textpic {
+	userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+	vendorName = TRB
+	extensionName = TrbCeTextpic
+	pluginName = textpic
+}

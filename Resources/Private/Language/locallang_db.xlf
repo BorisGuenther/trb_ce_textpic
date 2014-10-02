@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-02T16:45:24Z" product-name="trb_ce_textpic">
+		<header/>
+		<body>
+			<!-- Layout -->
+			<trans-unit id="layout.left_beside"><source>Left beside text</source></trans-unit>
+			<trans-unit id="layout.right_beside"><source>Right beside text</source></trans-unit>
+		</body>
+	</file>
+</xliff>

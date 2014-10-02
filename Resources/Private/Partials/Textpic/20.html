@@ -1,0 +1,17 @@
+{namespace trb = TRB\TrbBasicsViewhelper\ViewHelpers}
+<!-- Beside Right -->
+<trb:content.header data="{data}" />
+<div class="row">
+	<div class="col-sm-8">
+		<f:format.html>{data.bodytext}</f:format.html>
+	</div>
+	<div class="col-sm-4">
+		<trb:fal uid="{data.uid}" table="tt_content" field="image" as="images">
+			<f:for each="{images}" as="image">
+				<a href="{image.publicUrl}" class="image-link">
+					<f:image src="{image.publicUrl}" class="img-responsive" />
+				</a>
+			</f:for>
+		</trb:fal>
+	</div>
+</div>
